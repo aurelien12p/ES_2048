@@ -1,0 +1,9 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/homepage_screen/HomePageView.cpp:14:6:virtual void HomePageView::tearDownScreen()	1
+../../TouchGFX/gui/include/gui/homepage_screen/HomePageView.hpp:11:13:HomePageView::~HomePageView()	1
+../../TouchGFX/gui/include/gui/homepage_screen/HomePageView.hpp:11:13:virtual HomePageView::~HomePageView()	1
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/homepage_screen/HomePageView.cpp:3:1:HomePageView::HomePageView()	1
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/homepage_screen/HomePageView.cpp:8:6:virtual void HomePageView::setupScreen()	1
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/homepage_screen/HomePageView.cpp:19:6:void HomePageView::setBestScore(int)	1

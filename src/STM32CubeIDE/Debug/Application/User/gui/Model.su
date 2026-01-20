@@ -1,0 +1,12 @@
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/model/Model.cpp:76:6:void Model::newTile()	152	static
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/model/Model.cpp:57:6:void Model::resetGame()	8	static
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/model/Model.cpp:11:1:Model::Model()	8	static
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/model/Model.cpp:100:6:bool Model::compressAndMerge(int*)	64	static
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/model/Model.cpp:148:6:void Model::moveLeft()	24	static
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/model/Model.cpp:155:6:void Model::moveRight()	40	static
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/model/Model.cpp:168:6:void Model::moveUp()	40	static
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/model/Model.cpp:181:6:void Model::moveDown()	40	static
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/model/Model.cpp:194:6:void Model::refresh()	0	static
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/model/Model.cpp:202:6:bool Model::checkGameOver()	12	static
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/model/Model.cpp:17:6:void Model::tick()	16	static
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/model/Model.cpp:219:6:void Model::keepPlaying()	0	static

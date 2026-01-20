@@ -1,0 +1,13 @@
+../../TouchGFX/gui/include/gui/gamescreen_screen/GameScreenPresenter.hpp:19:13:GameScreenPresenter::~GameScreenPresenter()	1
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/gamescreen_screen/GameScreenPresenter.cpp:20:6:virtual void GameScreenPresenter::deactivate()	1
+../../TouchGFX/gui/include/gui/gamescreen_screen/GameScreenPresenter.hpp:19:13:virtual GameScreenPresenter::~GameScreenPresenter()	1
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/gamescreen_screen/GameScreenPresenter.cpp:49:6:virtual void GameScreenPresenter::updateScore(int, int)	1
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/gamescreen_screen/GameScreenPresenter.cpp:9:6:virtual void GameScreenPresenter::activate()	1
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/gamescreen_screen/GameScreenPresenter.cpp:24:6:virtual void GameScreenPresenter::toggleAllTiles()	1
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/gamescreen_screen/GameScreenPresenter.cpp:29:6:virtual void GameScreenPresenter::updateBoardView(int (*)[4])	1
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/gamescreen_screen/GameScreenPresenter.cpp:34:6:virtual void GameScreenPresenter::gameover()	1
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/gamescreen_screen/GameScreenPresenter.cpp:39:6:virtual void GameScreenPresenter::gameWon()	1
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/gamescreen_screen/GameScreenPresenter.cpp:44:6:virtual void GameScreenPresenter::keepPlaying()	1
+../../TouchGFX/gui/include/gui/gamescreen_screen/GameScreenPresenter.hpp:19:13:virtual void* GameScreenPresenter::_ZThn4_N19GameScreenPresenterD1Ev()	1
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/gamescreen_screen/GameScreenPresenter.cpp:4:1:GameScreenPresenter::GameScreenPresenter(GameScreenView&)	1
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/gamescreen_screen/GameScreenPresenter.cpp:15:6:void GameScreenPresenter::retry()	1

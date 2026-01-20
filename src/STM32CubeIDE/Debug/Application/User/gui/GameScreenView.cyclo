@@ -1,0 +1,20 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:424:8:touchgfx::Callback<GameScreenView>::~Callback()	1
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/gamescreen_screen/GameScreenView.cpp:42:6:virtual void GameScreenView::tearDownScreen()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:449:18:void touchgfx::Callback<dest_type, void, void, void>::execute() [with dest_type = GameScreenView]	2
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:459:18:bool touchgfx::Callback<dest_type, void, void, void>::isValid() const [with dest_type = GameScreenView]	3
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:424:8:virtual touchgfx::Callback<GameScreenView>::~Callback()	1
+../../TouchGFX/gui/include/gui/gamescreen_screen/GameScreenView.hpp:15:13:GameScreenView::~GameScreenView()	1
+../../TouchGFX/gui/include/gui/gamescreen_screen/GameScreenView.hpp:15:13:virtual GameScreenView::~GameScreenView()	1
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/gamescreen_screen/GameScreenView.cpp:3:1:GameScreenView::GameScreenView()	1
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/gamescreen_screen/GameScreenView.cpp:47:6:void GameScreenView::toggleTilesVisibility()	3
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/gamescreen_screen/GameScreenView.cpp:61:6:void GameScreenView::displayModel(int (*)[4])	5
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/gamescreen_screen/GameScreenView.cpp:90:6:void GameScreenView::showGameOver()	1
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/gamescreen_screen/GameScreenView.cpp:96:6:void GameScreenView::onRetryHandler()	1
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/gamescreen_screen/GameScreenView.cpp:104:6:void GameScreenView::showWin()	1
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/gamescreen_screen/GameScreenView.cpp:110:6:void GameScreenView::onWinRetryHandler()	1
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/gamescreen_screen/GameScreenView.cpp:117:6:void GameScreenView::onWinContinueHandler()	1
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/gamescreen_screen/GameScreenView.cpp:124:6:void GameScreenView::updateScore(int, int)	1
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/gamescreen_screen/GameScreenView.cpp:11:6:virtual void GameScreenView::setupScreen()	3

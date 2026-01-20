@@ -1,0 +1,11 @@
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:12:18:virtual void ModelListener::toggleAllTiles()	0	static
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:14:18:virtual void ModelListener::updateBoardView(int (*)[4])	0	static
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:15:18:virtual void ModelListener::gameover()	0	static
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:16:18:virtual void ModelListener::gameWon()	0	static
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:17:18:virtual void ModelListener::updateScore(int, int)	0	static
+../../TouchGFX/gui/include/gui/homepage_screen/HomePagePresenter.hpp:28:13:HomePagePresenter::~HomePagePresenter()	0	static
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/homepage_screen/HomePagePresenter.cpp:15:6:virtual void HomePagePresenter::deactivate()	0	static
+../../TouchGFX/gui/include/gui/homepage_screen/HomePagePresenter.hpp:28:13:virtual HomePagePresenter::~HomePagePresenter()	8	static
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/homepage_screen/HomePagePresenter.cpp:10:6:virtual void HomePagePresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/homepage_screen/HomePagePresenter.hpp:28:13:virtual void* HomePagePresenter::_ZThn4_N17HomePagePresenterD1Ev()	0	static
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/homepage_screen/HomePagePresenter.cpp:4:1:HomePagePresenter::HomePagePresenter(HomePageView&)	0	static

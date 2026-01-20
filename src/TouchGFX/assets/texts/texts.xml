@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.24.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_9MMA" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">CONTINUE</Translation>
+      </Text>
+      <Text Id="__SingleUse_VUN8" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">RETRY</Translation>
+      </Text>
+      <Text Id="__SingleUse_ONZ2" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">YOU WIN</Translation>
+      </Text>
+      <Text Id="__SingleUse_NNMA" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">RETRY</Translation>
+      </Text>
+      <Text Id="__SingleUse_VPVJ" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">GameOver</Translation>
+      </Text>
+      <Text Id="__SingleUse_64HM" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Score: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_0PIB" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Best score: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_C2W9" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">PLAY</Translation>
+      </Text>
+      <Text Id="__SingleUse_PE2F" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Best Score:&#10; &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_MSW4" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">2048</Translation>
+      </Text>
+      <Text Id="__SingleUse_PGN1" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Medium" Font="verdana.ttf" Size="15" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Numbers" Font="trebucbd.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>

@@ -1,0 +1,662 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "HomePage",
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "background",
+            "Width": 240,
+            "Height": 320,
+            "Filename": "__generated\\alternate_theme_images_backgrounds_240x320_puzzle.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "title",
+            "X": 70,
+            "Y": 47,
+            "Width": 100,
+            "Height": 41,
+            "TextId": "__SingleUse_MSW4",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "bestScore",
+            "X": 56,
+            "Y": 140,
+            "Width": 117,
+            "Height": 40,
+            "TextId": "__SingleUse_PE2F",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {}
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "playButton",
+            "X": 48,
+            "Y": 223,
+            "Width": 144,
+            "Height": 60,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_60_tiny_round_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_60_tiny_round_action.png",
+            "TextId": "__SingleUse_C2W9",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_60\\tiny_round_action.json"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "playButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "GameScreen"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "GameScreen",
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "background",
+            "Width": 240,
+            "Height": 320,
+            "Filename": "__generated\\alternate_theme_images_backgrounds_240x320_puzzle.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "Box",
+            "Name": "background_white",
+            "X": 15,
+            "Y": 95,
+            "Width": 210,
+            "Height": 210,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "tile44",
+            "X": 173,
+            "Y": 253,
+            "Width": 50,
+            "Height": 50,
+            "CustomContainerDefinitionName": "TileContainer"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "tile43",
+            "X": 121,
+            "Y": 253,
+            "Width": 50,
+            "Height": 50,
+            "CustomContainerDefinitionName": "TileContainer"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "tile42",
+            "X": 69,
+            "Y": 253,
+            "Width": 50,
+            "Height": 50,
+            "CustomContainerDefinitionName": "TileContainer"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "tile41",
+            "X": 17,
+            "Y": 253,
+            "Width": 50,
+            "Height": 50,
+            "CustomContainerDefinitionName": "TileContainer"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "tile34",
+            "X": 173,
+            "Y": 201,
+            "Width": 50,
+            "Height": 50,
+            "CustomContainerDefinitionName": "TileContainer"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "tile33",
+            "X": 121,
+            "Y": 201,
+            "Width": 50,
+            "Height": 50,
+            "CustomContainerDefinitionName": "TileContainer"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "tile32",
+            "X": 69,
+            "Y": 201,
+            "Width": 50,
+            "Height": 50,
+            "CustomContainerDefinitionName": "TileContainer"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "tile31",
+            "X": 17,
+            "Y": 201,
+            "Width": 50,
+            "Height": 50,
+            "CustomContainerDefinitionName": "TileContainer"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "tile24",
+            "X": 173,
+            "Y": 149,
+            "Width": 50,
+            "Height": 50,
+            "CustomContainerDefinitionName": "TileContainer"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "tile23",
+            "X": 121,
+            "Y": 149,
+            "Width": 50,
+            "Height": 50,
+            "CustomContainerDefinitionName": "TileContainer"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "tile22",
+            "X": 69,
+            "Y": 149,
+            "Width": 50,
+            "Height": 50,
+            "CustomContainerDefinitionName": "TileContainer"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "tile21",
+            "X": 17,
+            "Y": 149,
+            "Width": 50,
+            "Height": 50,
+            "CustomContainerDefinitionName": "TileContainer"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "tile14",
+            "X": 173,
+            "Y": 97,
+            "Width": 50,
+            "Height": 50,
+            "CustomContainerDefinitionName": "TileContainer"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "tile13",
+            "X": 121,
+            "Y": 97,
+            "Width": 50,
+            "Height": 50,
+            "CustomContainerDefinitionName": "TileContainer"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "tile12",
+            "X": 69,
+            "Y": 97,
+            "Width": 50,
+            "Height": 50,
+            "CustomContainerDefinitionName": "TileContainer"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "tile11",
+            "X": 17,
+            "Y": 97,
+            "Width": 50,
+            "Height": 50,
+            "CustomContainerDefinitionName": "TileContainer"
+          },
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "X": 15,
+            "Y": 95,
+            "Width": 2,
+            "Height": 210
+          },
+          {
+            "Type": "Box",
+            "Name": "box2",
+            "X": 67,
+            "Y": 95,
+            "Width": 2,
+            "Height": 210
+          },
+          {
+            "Type": "Box",
+            "Name": "box3",
+            "X": 119,
+            "Y": 95,
+            "Width": 2,
+            "Height": 210
+          },
+          {
+            "Type": "Box",
+            "Name": "box4",
+            "X": 171,
+            "Y": 95,
+            "Width": 2,
+            "Height": 210
+          },
+          {
+            "Type": "Box",
+            "Name": "box5",
+            "X": 223,
+            "Y": 95,
+            "Width": 2,
+            "Height": 210
+          },
+          {
+            "Type": "Box",
+            "Name": "box6",
+            "X": 15,
+            "Y": 95,
+            "Width": 210,
+            "Height": 2
+          },
+          {
+            "Type": "Box",
+            "Name": "box7",
+            "X": 15,
+            "Y": 147,
+            "Width": 210,
+            "Height": 2
+          },
+          {
+            "Type": "Box",
+            "Name": "box8",
+            "X": 15,
+            "Y": 199,
+            "Width": 210,
+            "Height": 2
+          },
+          {
+            "Type": "Box",
+            "Name": "box9",
+            "X": 15,
+            "Y": 250,
+            "Width": 210,
+            "Height": 2
+          },
+          {
+            "Type": "Box",
+            "Name": "box10",
+            "X": 15,
+            "Y": 303,
+            "Width": 210,
+            "Height": 2
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "popUpWin1",
+            "Width": 240,
+            "Height": 320,
+            "Visible": false,
+            "CustomContainerDefinitionName": "PopUpWin"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "popUpGameOver1",
+            "Width": 240,
+            "Height": 320,
+            "Visible": false,
+            "CustomContainerDefinitionName": "PopUpGameOver"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "homeButton",
+            "X": 10,
+            "Y": 15,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_tiny_fill_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_tiny_fill_action.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_action_home_filled_50_50_E8F6FB.svg.png",
+            "IconX": 5,
+            "IconY": 5,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "alternate_theme\\presets\\button\\icon\\round\\tiny_fill_action.json"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "bestScore",
+            "X": 75,
+            "Y": 20,
+            "Width": 120,
+            "Height": 20,
+            "TextId": "__SingleUse_0PIB",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {}
+          },
+          {
+            "Type": "TextArea",
+            "Name": "currentScore",
+            "X": 75,
+            "Y": 50,
+            "Width": 73,
+            "Height": 20,
+            "TextId": "__SingleUse_64HM",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {}
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "homeButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "HomePage"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [
+      {
+        "Name": "TileContainer",
+        "X": 30,
+        "Y": 240,
+        "Width": 50,
+        "Height": 50,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 50,
+            "Height": 50,
+            "Color": {
+              "Red": 222,
+              "Green": 222,
+              "Blue": 222
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "number",
+            "Y": 15,
+            "Width": 50,
+            "Height": 25,
+            "TextId": "__SingleUse_PGN1",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 18
+            }
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "PopUpGameOver",
+        "Width": 240,
+        "Height": 320,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 240,
+            "Height": 320,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Alpha": 200
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "retryButton",
+            "X": 48,
+            "Y": 203,
+            "Width": 144,
+            "Height": 60,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_60_tiny_round_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_60_tiny_round_action.png",
+            "TextId": "__SingleUse_NNMA",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_60\\tiny_round_action.json"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "text",
+            "X": 13,
+            "Y": 119,
+            "Width": 214,
+            "Height": 41,
+            "TextId": "__SingleUse_VPVJ",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "retryButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "retryClicked"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "PopUpWin",
+        "Width": 240,
+        "Height": 320,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 240,
+            "Height": 320,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Alpha": 200
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "retryButton",
+            "X": 48,
+            "Y": 239,
+            "Width": 144,
+            "Height": 60,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_60_tiny_round_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_60_tiny_round_action.png",
+            "TextId": "__SingleUse_VUN8",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_60\\tiny_round_action.json"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "continueButton",
+            "X": 48,
+            "Y": 173,
+            "Width": 144,
+            "Height": 60,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_60_tiny_round_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_60_tiny_round_action.png",
+            "TextId": "__SingleUse_9MMA",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_60\\tiny_round_action.json"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 27,
+            "Y": 119,
+            "Width": 186,
+            "Height": 41,
+            "TextId": "__SingleUse_ONZ2",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "retryButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "retryClicked"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "continueButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "continueClicked"
+            }
+          }
+        ]
+      }
+    ],
+    "Name": "2048",
+    "Resolution": {
+      "Width": 240,
+      "Height": 320
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "HomePage",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 240,
+        "Height": 320
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Portrait",
+    "Family": "STM32F4",
+    "SubFamily": "STM32F429/439",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m4",
+    "ProjectFile": "../STM32F429I_DISCO_REV_D01.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "CWRVector",
+      "VectorFonts"
+    ]
+  },
+  "Version": "4.24.0",
+  "CreatedBy": "4.24.0"
+}

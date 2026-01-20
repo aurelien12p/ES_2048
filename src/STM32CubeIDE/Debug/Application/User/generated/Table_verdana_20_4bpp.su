@@ -1,0 +1,2 @@
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/generated/fonts/src/Table_verdana_20_4bpp.cpp:57:168:void __tcf_0()	0	static
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/generated/fonts/src/Table_verdana_20_4bpp.cpp:55:26:touchgfx::GeneratedFont& getFont_verdana_20_4bpp()	72	static

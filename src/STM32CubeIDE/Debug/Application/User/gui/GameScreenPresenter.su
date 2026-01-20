@@ -1,0 +1,13 @@
+../../TouchGFX/gui/include/gui/gamescreen_screen/GameScreenPresenter.hpp:19:13:GameScreenPresenter::~GameScreenPresenter()	0	static
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/gamescreen_screen/GameScreenPresenter.cpp:20:6:virtual void GameScreenPresenter::deactivate()	0	static
+../../TouchGFX/gui/include/gui/gamescreen_screen/GameScreenPresenter.hpp:19:13:virtual GameScreenPresenter::~GameScreenPresenter()	8	static
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/gamescreen_screen/GameScreenPresenter.cpp:49:6:virtual void GameScreenPresenter::updateScore(int, int)	0	static
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/gamescreen_screen/GameScreenPresenter.cpp:9:6:virtual void GameScreenPresenter::activate()	8	static
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/gamescreen_screen/GameScreenPresenter.cpp:24:6:virtual void GameScreenPresenter::toggleAllTiles()	0	static
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/gamescreen_screen/GameScreenPresenter.cpp:29:6:virtual void GameScreenPresenter::updateBoardView(int (*)[4])	0	static
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/gamescreen_screen/GameScreenPresenter.cpp:34:6:virtual void GameScreenPresenter::gameover()	0	static
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/gamescreen_screen/GameScreenPresenter.cpp:39:6:virtual void GameScreenPresenter::gameWon()	0	static
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/gamescreen_screen/GameScreenPresenter.cpp:44:6:virtual void GameScreenPresenter::keepPlaying()	0	static
+../../TouchGFX/gui/include/gui/gamescreen_screen/GameScreenPresenter.hpp:19:13:virtual void* GameScreenPresenter::_ZThn4_N19GameScreenPresenterD1Ev()	0	static
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/gamescreen_screen/GameScreenPresenter.cpp:4:1:GameScreenPresenter::GameScreenPresenter(GameScreenView&)	0	static
+/home/ethan/STM32CubeIDE/workspace_1.19.0/2048/TouchGFX/gui/src/gamescreen_screen/GameScreenPresenter.cpp:15:6:void GameScreenPresenter::retry()	0	static
